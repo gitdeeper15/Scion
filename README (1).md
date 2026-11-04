@@ -52,8 +52,8 @@
 - [Research Questions](#research-questions)
 - [Document Governance](#document-governance)
 - [Relation to Research I](#relation-to-research-i)
+- [Platforms & Mirrors](#platforms--mirrors)
 - [Project Structure](#project-structure)
-- [Reproducibility Infrastructure](#reproducibility-infrastructure)
 - [OSF Preregistration](#osf-preregistration)
 - [Version History](#version-history)
 - [Citation](#citation)
@@ -273,6 +273,24 @@ The two programs are **methodologically independent**. RQ-D1 is retained as a qu
 
 ---
 
+## Platforms & Mirrors
+
+| Platform | URL | Role |
+|---|---|---|
+| **GitHub (Primary)** | [github.com/gitdeeper/pcr-ai](https://github.com/gitdeeper/pcr-ai) | Source code, issues, PRs |
+| **GitLab** | [gitlab.com/gitdeeper/pcr-ai](https://gitlab.com/gitdeeper/pcr-ai) | Mirror repository |
+| **Codeberg** | [codeberg.org/gitdeeper/pcr-ai](https://codeberg.org/gitdeeper/pcr-ai) | Mirror repository |
+| **Bitbucket** | [bitbucket.org/gitdeeper/pcr-ai](https://bitbucket.org/gitdeeper/pcr-ai) | Mirror repository |
+| **PyPI** | [pypi.org/project/pcr-ai](https://pypi.org/project/pcr-ai/) | Python package distribution |
+| **Zenodo** | [doi.org/10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Citable DOI, paper archive |
+| **Figshare** | [10.6084/m9.figshare.XXXXXXX](https://doi.org/10.6084/m9.figshare.XXXXXXX) | Secondary archive (figures, data) |
+| **Website** | [pcr-ai.netlify.app](https://pcr-ai.netlify.app) | Live documentation |
+| **OSF** | [osf.io/XXXXX](https://osf.io/XXXXX) | Preregistration |
+| **Internet Archive** | [archive.org/details/osf-registrations-XXXXX-v1](https://archive.org/details/osf-registrations-XXXXX-v1) | Permanent preservation |
+| **ORCID** | [orcid.org/0009-0003-8903-0029](https://orcid.org/0009-0003-8903-0029) | Author identity |
+
+---
+
 ## Project Structure
 
 ```
@@ -334,19 +352,6 @@ PCR_AI/
 ```
 
 **Note on layout:** The four foundational documents are consolidated in this README (Sections 3–6) and mirrored as directory stubs under `docs/` to enforce sequential adoption (Section 8.1). The operational directories (`ANALYSIS/`, `DATA/`, `EXTERNAL_REVIEW/`, `PUBLICATION/`, `REPORTS/`, `VALIDATION/`) are research-infrastructure artifacts, not architectural commitments of the protocol.
-
----
-
-## Reproducibility Infrastructure
-
-| Platform | Link | Content |
-|---|---|---|
-| **Zenodo** | [10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Research II manuscript + DOI |
-| **Official Site** | [pcr-ai.netlify.app](https://pcr-ai.netlify.app) | Project website |
-| **OSF** | [osf.io/XXXXX](https://osf.io/XXXXX) | Preregistration + data |
-| **PyPI** | [pcr-ai](https://pypi.org/project/pcr-ai/) | Python package (secondary) |
-| **Code Repositories** | [GitHub](https://github.com/gitdeeper/pcr-ai) · [GitLab](https://gitlab.com/gitdeeper/pcr-ai) · [Codeberg](https://codeberg.org/gitdeeper/pcr-ai) · [Bitbucket](https://bitbucket.org/gitdeeper/pcr-ai) | Source code (all mirrors) |
-| **Internet Archive** | [Archive](https://archive.org/details/osf-registrations-XXXXX-v1) | Permanent preservation |
 
 ---
 
