@@ -277,26 +277,63 @@ The two programs are **methodologically independent**. RQ-D1 is retained as a qu
 
 ```
 
-Research_II/
+PCR_AI/
 ├── docs/
 │   ├── 01_conceptual_architecture/    # v0.2 — Adopted
 │   ├── 02_authority_structure/        # v0.1 — Pending
 │   ├── 03_representation_lifecycle/   # v0.1 — Pending
-│   └── 04_research_questions/         # v0.1 — Pending
+│   ├── 04_research_questions/         # v0.1 — Pending
+│   ├── ITERATION_LOG.md
+│   ├── PROJECT_SUMMARY.txt
+│   └── comprehensive_audit_report.json
 ├── protocol/
-│   ├── README.md                       # This file
-│   └── methodology_scope.md            # Deferred (RQ-D2)
+│   └── methodology_scope.md           # Deferred (RQ-D2)
 ├── literature/
-│   └── review_pending.md               # Section 2 — Pending
-├── figures/
-│   ├── fig1_five_functions.png
-│   ├── fig2_lifecycle_canonical.png
-│   ├── fig3_five_authorities.png
-│   └── fig4_lifecycle_paths.png
+│   └── review_pending.md              # Section 2 — Pending
+├── figures/                            # Diagrams (Figures 1–4)
+├── ANALYSIS/
+│   ├── ANALYSIS_REPORT.md
+│   └── analysis_insights.json
+├── DATA/
+│   └── raw/
+│       └── input.json
+├── EXTERNAL_REVIEW/
+│   ├── review_PCR_AI_2026-11-04.md
+│   ├── review_coordinator.json
+│   └── review_status.json
+├── PUBLICATION/
+│   ├── Netlify/                        # Official project website
+│   │   ├── netlify.toml
+│   │   ├── project.json
+│   │   └── public/
+│   ├── dist/
+│   │   ├── pcr-ai-1.0.0-py3-none-any.whl
+│   │   └── pcr-ai-1.0.0.tar.gz
+│   └── Production_Control_Representations_In_Artificial_Intelligence.pdf
+├── REPORTS/                            # Audit, compliance, and consistency reports
+├── VALIDATION/
+│   └── .lock/
+│       └── language_lock_report.json
+├── AUTHORS.md
+├── CHANGELOG.md
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── FINAL_REPORT.json
+├── INVENTORY.md
+├── LICENSE
+├── OSF_REGISTRATION.md
+├── PROJECT_SUMMARY.txt
 ├── README.md
-└── LICENSE
+├── VERSION
+├── manifest.json
+├── scientific_state.json
+├── requirements.txt
+├── setup.cfg
+└── setup.py
 
 ```
+
+**Note on layout:** The four foundational documents are consolidated in this README (Sections 3–6) and mirrored as directory stubs under `docs/` to enforce sequential adoption (Section 8.1). The operational directories (`ANALYSIS/`, `DATA/`, `EXTERNAL_REVIEW/`, `PUBLICATION/`, `REPORTS/`, `VALIDATION/`) are research-infrastructure artifacts, not architectural commitments of the protocol.
 
 ---
 
@@ -305,10 +342,10 @@ Research_II/
 | Platform | Link | Content |
 |---|---|---|
 | **Zenodo** | [10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Research II manuscript + DOI |
+| **Official Site** | [pcr-ai.netlify.app](https://pcr-ai.netlify.app) | Project website |
 | **OSF** | [osf.io/XXXXX](https://osf.io/XXXXX) | Preregistration + data |
 | **PyPI** | [pcr-ai](https://pypi.org/project/pcr-ai/) | Python package (secondary) |
-| **GitLab** | [gitlab.com/gitdeeper/pcr-ai](https://gitlab.com/gitdeeper/pcr-ai) | Primary repository |
-| **GitHub** | [github.com/gitdeeper/pcr-ai](https://github.com/gitdeeper/pcr-ai) | Mirror |
+| **Code Repositories** | [GitHub](https://github.com/gitdeeper/pcr-ai) · [GitLab](https://gitlab.com/gitdeeper/pcr-ai) · [Codeberg](https://codeberg.org/gitdeeper/pcr-ai) · [Bitbucket](https://bitbucket.org/gitdeeper/pcr-ai) | Source code (all mirrors) |
 | **Internet Archive** | [Archive](https://archive.org/details/osf-registrations-XXXXX-v1) | Permanent preservation |
 
 ---
@@ -329,9 +366,9 @@ Research_II/
 
 | Version | Release | Focus | Status |
 |---|---|---|---|
+| **v0.2** | 2026-11 | Conceptual Architecture adopted | ✅ Adopted |
+| **v0.1** | 2026-11 | Authority Structure, Lifecycle, Questions specified | ⏳ Pending |
 | **v0.1** | 2026-11 | Initial Program Manuscript — Architecture Specification Stage | Research |
-| **v0.2** | 2026-11 | Conceptual Architecture adopted | Adopted |
-| **v0.1** | 2026-11 | Authority Structure, Lifecycle, Questions specified | Pending |
 
 > **Status note:** No empirical or analytical examination of specific systems has been undertaken. The five functional units, five authorities, six lifecycle stages, and five alternative paths are **analytical proposals, not empirically validated categories**.
 
@@ -438,15 +475,18 @@ https://img.shields.io/badge/Paper%20ID-PAPER--2026--001-blue
 Author
 
 Samir Baladi
-Independent Interdisciplinary Researcher — Ronin Institute / Rite of Renaissance
+Interdisciplinary AI Researcher — Ronin Institute / Rite of Renaissance
 
 · Research Area: Science and Technology Studies, Media and Platform Studies, Human-AI Interaction
 · Research Domain: Structural Analysis of Representational Authority in AI-Mediated Systems
 · Research Type: Prospective Structural Research Protocol — Conceptual, Authority, and Lifecycle Architecture
 · 📧 gitdeeper@gmail.com
 · 🔗 ORCID: 0009-0003-8903-0029
+· 🌐 Official Site
 · 🐙 GitHub
 · 🦊 GitLab
+· 🟦 Codeberg
+· 🪣 Bitbucket
 · 🐝 pcr-ai on PyPI
 
 ---
@@ -472,4 +512,4 @@ copies or substantial portions of the Software.
 
 Research II — Initial Program Manuscript v0.1
 © 2026 Samir Baladi — Ronin Institute / Rite of Renaissance — MIT License
-Zenodo: 10.5281/zenodo.23940837 | OSF: 10.17605/OSF.IO/XXXXX | PyPI: pcr-ai
+Zenodo: 10.5281/zenodo.23940837 | Official Site: pcr-ai.netlify.app | PyPI: pcr-ai
