@@ -1,6 +1,6 @@
-# 📚 PCR_AI v1.0.0
+# 📚 Research II — The Production and Control of Representations in Artificial Intelligence
 
-### The Production and Control of Representations in Artificial Intelligence — Research II
+### A Conceptual Architecture, Authority Structure, Representation Lifecycle, and Research Protocol
 
 ---
 
@@ -24,7 +24,7 @@
 <!-- Stack -->
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4%2B-orange.svg)](https://pytorch.org)
-[![GITDEEPER STE](https://img.shields.io/badge/STE-v6-gold.svg)](https://github.com/gitdeeper/GITDEEPER_LAB_ZERO_V6)
+[![Official Site](https://img.shields.io/badge/Official%20Site-pcr--ai.netlify.app-gold.svg)](https://pcr-ai.netlify.app)
 
 <!-- Publication -->
 [![Journal](https://img.shields.io/badge/Journal-Under%20Review-red)](https://journal.example.com)
@@ -33,26 +33,26 @@
 
 ---
 
-> *"Quality assurance is the foundation of trust."*
+> *"The program's commitments are reported as specified, not as established: this repository presents an architecture and a research protocol, not findings."*
 >
-> — PCR_AI Manifesto
+> — Research II, Abstract
 
-> *"Certification without quality is meaningless."*
+> *"No empirical work has been performed under this protocol."*
 
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [The Problem](#the-problem)
-- [Core Constructs](#core-constructs)
-- [Mathematical Foundation](#mathematical-foundation)
-- [Key Results](#key-results)
+- [The Central Question](#the-central-question)
+- [Foundational Documents](#foundational-documents)
+- [Conceptual Architecture](#conceptual-architecture)
+- [Authority Structure](#authority-structure)
+- [Representation Lifecycle](#representation-lifecycle)
+- [Research Questions](#research-questions)
 - [Document Governance](#document-governance)
+- [Relation to Research I](#relation-to-research-i)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Validation Scenarios](#validation-scenarios)
 - [Reproducibility Infrastructure](#reproducibility-infrastructure)
 - [OSF Preregistration](#osf-preregistration)
 - [Version History](#version-history)
@@ -64,145 +64,193 @@
 
 ## Overview
 
-**PCR_AI** is the reference implementation and research protocol repository for *Research II — The Production and Control of Representations in Artificial Intelligence*. The program examines the structural relations through which representations are constituted before they reach a recipient, treating representation itself as the central analytical object rather than the model, the platform, or the user in isolation.
+**Research II** examines the structural relations through which representations are constituted before they reach a recipient, treating representation itself as the central analytical object rather than treating the model, the platform, or the user in isolation.
 
-The framework is built on three mathematically rigorous constructs:
+The program is specified through **four foundational documents**, developed in sequence and adopted individually. This repository consolidates them into a single research protocol. It does not add new architectural commitments beyond what the four source documents specify, and it does not report empirical findings.
 
-| Construct | Role |
+---
+
+## The Central Question
+
+> **Who produces the representations a recipient encounters through AI systems, who controls their formation, availability, and appearance, and who consumes them?**
+
+This question is **structural**, not accusatory or normative. It does not presuppose that production, control, and consumption are each located in a single entity, that any one party necessarily dominates the chain, or that current arrangements are illegitimate. It asks how the functions are in fact distributed, and what structural consequences follow from different distributions.
+
+---
+
+## Foundational Documents
+
+| # | Document | Version | Status |
+|---|---|---|---|
+| 1 | **Conceptual Architecture** | 0.2 | ✅ Adopted |
+| 2 | **Authority Structure** | 0.1 | ⏳ Pending adoption |
+| 3 | **Representation Lifecycle** | 0.1 | ⏳ Pending adoption |
+| 4 | **Research Questions** | 0.1 | ⏳ Pending adoption |
+
+Development is strictly sequential: no further architectural work, no system selection, and no methodological commitments proceed from a given document until it is adopted.
+
+---
+
+## Conceptual Architecture
+
+*Status: Adopted, version 0.2.*
+
+The architecture distinguishes **five functional units**, defined by function rather than by institutional identity, ownership, or technical component:
+
+| # | Functional Unit | Function |
+|---|---|---|
+| 1 | **Producer** | Originates or supplies the material from which the representation is constituted. |
+| 2 | **Model / Generative System** | Transforms inputs into a representation. |
+| 3 | **Platform / Controller** | Governs the conditions of production, presentation, and availability. |
+| 4 | **Distribution Interface** | Determines how the representation reaches and appears to the recipient. |
+| 5 | **Recipient / Consumer** | Receives the representation and engages with it. |
+
+**Foundational assumption (negative):** Research II does not assume that each function has a distinct owner, nor that any one function subsumes the others.
+
+### Five Foundational Distinctions
+
+```
+
+Production    ≠ Control
+Control       ≠ Distribution
+Distribution  ≠ Reception
+Function      ≠ Owner
+Governance    ≠ Execution
+
+```
+
+### Five Provisional Configuration Patterns
+
+- **Concentrated Configuration** — multiple functions performed by a single entity
+- **Partially Integrated Configuration** — some functions combined, others distributed
+- **Functionally Separated Configuration** — each function performed by a distinct entity
+- **Distributed Authority** — a single function jointly exercised by multiple entities
+- **Hybrid Distribution** — different functions exhibit different degrees of concentration
+
+---
+
+## Authority Structure
+
+*Status: Version 0.1, pending adoption. Depends on the Conceptual Architecture (adopted, v0.2).*
+
+The Authority Structure distinguishes **five authority types** and establishes that authority is analytically distinct from function — a function is what is done; an authority is the right to do it.
+
+| Authority | Object | Central Question |
+|---|---|---|
+| **Production Authority** | The representation as originated | Who has the authority to originate this representation? |
+| **Transformation Authority** | The representation as modified | Who has the authority to modify or reshape this representation? |
+| **Selection Authority** | The representation as presented | Who has the authority to decide what is shown and what is not? |
+| **Distribution Authority** | The representation as available | Who has the authority to determine access, reach, and retention? |
+| **Interpretive Authority** | The representation as interpreted | Who has the authority to present a particular interpretation as the accepted one? |
+
+### Five Pairwise Distinctions
+
+```
+
+Production     ⊥ Transformation
+Transformation ⊥ Selection
+Selection      ⊥ Distribution
+Distribution   ⊥ Interpretation
+Production     ⊥ Interpretation
+
+```
+
+Each pair is analytically separable even where it is empirically joined in a specific system.
+
+---
+
+## Representation Lifecycle
+
+*Status: Version 0.1, pending adoption. Depends on the Conceptual Architecture and the Authority Structure.*
+
+The lifecycle traces the path of a representation through **six structural stages**:
+
+| Stage | Description |
 |---|---|
-| **Assessment (A)** | Evaluates representational constitution across the five functional units |
-| **Validation (V)** | Verifies structural consistency between functions, authorities, and lifecycle stages |
-| **Reliability (R)** | Measures stability of authority distribution across representational cycles |
+| 1. **Origination** | The representation is constituted from material. |
+| 2. **Transformation** | The representation is modified, reshaped, or regenerated. |
+| 3. **Selection** | The representation is included in or excluded from the presented set. |
+| 4. **Distribution** | The representation is made available (or restricted). |
+| 5. **Reception** | The representation reaches the recipient. |
+| 6. **Re-origination** | The recipient may produce a new representation, entering the lifecycle again. |
+
+### The Canonical Path
+
+```
+
+Origination → Transformation → Selection → Distribution → Reception → [Re-origination → …]
+
+```
+
+> The canonical path is **analytically clean, empirically rare, and useful as a baseline for comparison**. It is a reference point, not a norm.
+
+### Five Structurally Distinct Alternative Paths
+
+| Path | Structure |
+|---|---|
+| **Merged Path** | [Origination + Transformation + Selection + Distribution] → Reception → [Re-origination → …] |
+| **Skipped Transformation** | Origination → Selection → Distribution → Reception |
+| **Skipped Selection** | Origination → Transformation → Distribution → Reception |
+| **Distributed Origination** | [Producer₁ + Producer₂ + … + Producerₙ] → Transformation → … |
+| **Iterative Re-origination** | Origination → … → Reception → Re-origination → Transformation → … → Reception → … |
+
+These five alternative paths are not exhaustive; they are structurally distinct reference points.
 
 ---
 
-## The Problem
+## Research Questions
 
-Projects face three critical barriers to success:
+*Status: Version 0.1, pending adoption. 20 questions across 4 families.*
 
-**1. Inconsistent Standards**
-Functions, authorities, and lifecycle stages are frequently conflated in AI-mediated systems, producing analytical ambiguity about who produces, who controls, and who consumes representations.
+### Family A — Conceptual (Priority: First)
 
-**2. Limited Data**
-No empirical work has been performed under this protocol. The literature review, methodological scope, and system selection remain to be determined following adoption of the four foundational documents.
+- **RQ-A1.** Are the five functional units analytically distinct in actual systems, or do they routinely merge?
+- **RQ-A2.** Are the five authority types exercised by distinct entities, or do specific configurations of concentration appear systematically?
+- **RQ-A3.** What structural conditions determine whether functions and authorities coincide or diverge?
 
-**3. Trust Deficit**
-Interpretive authority is the most structurally delicate of the five authorities — it concerns not what is produced, selected, or distributed, but what is taken to mean.
+### Family B — Authority (Priority: Second)
 
----
+- **RQ-B1.** How is Production Authority distributed across entities in AI-mediated representational systems?
+- **RQ-B2.** How is Transformation Authority distributed, and under what conditions does it diverge from Production Authority?
+- **RQ-B3.** How is Selection Authority distributed, and what criteria govern the selection of representations for presentation?
+- **RQ-B4.** How is Distribution Authority distributed, and what conditions constrain access, reach, and retention?
+- **RQ-B5.** How is Interpretive Authority distributed, and whose interpretations are presented as authoritative?
+- **RQ-B6.** What patterns of authority distribution recur across different systems, and what structural factors explain these patterns?
 
-## Core Constructs
+### Family C — Lifecycle (Priority: Third)
 
-### 1. Assessment (A)
+- **RQ-C1.** Which lifecycle paths appear in practice, and with what frequency?
+- **RQ-C2.** What structural factors determine which path a representation takes?
+- **RQ-C3.** Where do structural interruptions occur, and what do they reveal about the exercise of authority?
+- **RQ-C4.** How do re-origination cycles interact with the lifecycle's earlier stages, and what structural transformations occur across cycles?
+- **RQ-C5.** How does the Recipient's interpretive authority operate on representations that have passed through different lifecycle paths?
 
-The five functional units defined by function rather than institutional identity:
+### Family D — Boundary (Priority: Later)
 
-- **Producer** — originates or supplies the material from which the representation is constituted
-- **Model / Generative System** — transforms inputs into a representation
-- **Platform / Controller** — governs the conditions of production, presentation, and availability
-- **Distribution Interface** — determines how the representation reaches and appears to the recipient
-- **Recipient / Consumer** — receives the representation and engages with it
+- **RQ-D1 (Boundary with Research I).** How does the structural distribution of authority over representations affect the recipient's epistemic standards, as examined in Research I?
+- **RQ-D2 (Methodological Scope).** What methodological approaches are adequate for examining the questions in families A–C: analytical, empirical, or both?
 
-```
+### Priority and Sequencing
 
-A = f(Producer, Model, Platform, Interface, Recipient)
-
-```
-
-### 2. Validation (V)
-
-The five authority types, analytically distinct from function:
-
-- **Production Authority** — who originates?
-- **Transformation Authority** — who modifies?
-- **Selection Authority** — who shows/hides?
-- **Distribution Authority** — who grants access?
-- **Interpretive Authority** — whose meaning counts?
-
-```
-
-V = g(Production, Transformation, Selection, Distribution, Interpretation)
-
-```
-
-### 3. Reliability (R)
-
-The six lifecycle stages and their structural paths:
-
-- **Canonical Path** — all six stages, one entity per stage (analytical baseline only)
-- **Merged Path** — multiple stages performed by a single entity
-- **Skipped Transformation** — presented as-is after origination
-- **Skipped Selection** — uncurated presentation set
-- **Distributed Origination** — multiple producers jointly originate
-- **Iterative Re-origination** — multi-cycle, layered revision
-
-```
-
-R = h(Origination, Transformation, Selection, Distribution, Reception, Re-origination)
-
-```
-
----
-
-## Mathematical Foundation
-
-### System Architecture
-
-```
-
-Producer → Model/Generative System → Platform/Controller → Distribution Interface → Recipient/Consumer
-↓
-[Re-origination cycle]
-
-```
-
-### Governing Equations
-
-```
-
-Canonical:  O → T → S → D → R → [Re-origination → …]
-Merged:     [O + T + S + D] → R → [Re-origination → …]
-Skipped T:  O → S → D → R
-Skipped S:  O → T → D → R
-Distributed O: [P₁ + P₂ + … + Pₙ] → T → …
-Iterative:  O → … → R → Re-origination → T → … → R → …
-
-```
-
-### Stability Proof
-
-The architecture's stability rests on five foundational distinctions:
-
-```
-
-Production ≠ Control
-Control ≠ Distribution
-Distribution ≠ Reception
-Function ≠ Owner
-Governance ≠ Execution
-
-```
-
-These distinctions are preserved as structural commitments — not empirical findings.
-
----
-
-## Key Results
-
-| Benchmark | Metric | Value | Baseline | Improvement |
-|---|---|---|---|---|
-| Accuracy | Score | 94% | 68% | **+26%** |
-| Consistency | Score | 96% | 72% | **+24%** |
-| Reliability | Score | 92% | 65% | **+27%** |
-| Overall | Score | 90% | 75% | **+15%** |
-
-> **Status note:** No empirical work has been performed under this protocol. The figures above are template placeholders inherited from the initial README draft and are **not validated findings**. They will be replaced following adoption of the three pending foundational documents and determination of methodological scope (RQ-D2).
+| Priority | Questions | Rationale |
+|---|---|---|
+| **First** | RQ-A1, RQ-A2, RQ-A3 | Test the architecture's own categories. |
+| **Second** | RQ-B1 – RQ-B6 | Operationalize authority distribution. |
+| **Third** | RQ-C1 – RQ-C5 | Operationalize the lifecycle. |
+| **Later** | RQ-D1, RQ-D2 | Boundary and methodological questions. |
 
 ---
 
 ## Document Governance
 
-The program's four foundational documents are developed and adopted sequentially, each depending on the documents before it:
+The program's four foundational documents are developed and adopted **sequentially**, each depending on the documents before it:
+
+1. **Conceptual Architecture** — depends on nothing prior; establishes the functional vocabulary.
+2. **Authority Structure** — depends on the Conceptual Architecture; establishes the authority vocabulary.
+3. **Representation Lifecycle** — depends on both prior documents; establishes the stages and paths.
+4. **Research Questions** — depends on all three prior documents; formulates the questions these documents make askable.
+
+**Current document status:**
 
 | Document | Version | Status |
 |---|---|---|
@@ -211,7 +259,17 @@ The program's four foundational documents are developed and adopted sequentially
 | Representation Lifecycle | 0.1 | ⏳ Pending adoption |
 | Research Questions | 0.1 | ⏳ Pending adoption |
 
-No further architectural work, no platform or system selection, and no methodological commitments proceed from a given document until it is adopted. This sequencing is preserved unmodified from the source documents.
+After adoption of all four documents, the program will determine its methodological scope (RQ-D2) and proceed accordingly.
+
+---
+
+## Relation to Research I
+
+**Research I** — *Epistemic Discipline in the Age of Artificial Intelligence: A Three-Study Research Protocol* (Baladi, 2026; DOI [10.5281/zenodo.23876902](https://doi.org/10.5281/zenodo.23876902)) — examines whether repeated interaction with an AI system can change a recipient's standards for interpreting system behavior and accepting its outputs. Its unit of analysis is the recipient's evolving interpretive standards across repeated interactions with a single system.
+
+**Research II** examines the structural distribution of production, transformation, selection, distribution, and interpretive authority over representations across the broader chain of functions, independent of any single recipient's history of interaction.
+
+The two programs are **methodologically independent**. RQ-D1 is retained as a question about their possible intersection, not as an integration of them. At the time of this manuscript, neither program has produced empirical findings; RQ-D1 is recorded as a later-priority question and is not pursued further here.
 
 ---
 
@@ -219,118 +277,69 @@ No further architectural work, no platform or system selection, and no methodolo
 
 ```
 
-PCR_AI/
+Research_II/
 ├── docs/
 │   ├── 01_conceptual_architecture/    # v0.2 — Adopted
 │   ├── 02_authority_structure/        # v0.1 — Pending
 │   ├── 03_representation_lifecycle/   # v0.1 — Pending
 │   └── 04_research_questions/         # v0.1 — Pending
-├── core/
-│   ├── init.py
-│   ├── assessment.py
-│   └── certification.py
-├── utils/
-│   ├── helpers.py
-│   └── validators.py
-├── models/
-│   └── model.py
-├── tests/
-│   └── test_all.py
+├── protocol/
+│   ├── README.md                       # This file
+│   └── methodology_scope.md            # Deferred (RQ-D2)
+├── literature/
+│   └── review_pending.md               # Section 2 — Pending
+├── figures/
+│   ├── fig1_five_functions.png
+│   ├── fig2_lifecycle_canonical.png
+│   ├── fig3_five_authorities.png
+│   └── fig4_lifecycle_paths.png
 ├── README.md
-├── LICENSE
-└── pyproject.toml
+└── LICENSE
 
 ```
 
 ---
 
-## Installation
+## Reproducibility Infrastructure
 
-```bash
-pip install pcr-ai
-```
-
-Requirements: Python 3.11+, PyTorch 2.4+, numpy, pandas, scikit-learn
-
----
-
-Quick Start
-
-```python
-from pcr_ai import Project
-
-# Initialize
-model = Project(
-    threshold=0.85,
-    dimensions=5,
-    validation=True,
-)
-
-# Run
-result = model.run()
-print(result.summary())
-```
+| Platform | Link | Content |
+|---|---|---|
+| **Zenodo** | [10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Research II manuscript + DOI |
+| **OSF** | [osf.io/XXXXX](https://osf.io/XXXXX) | Preregistration + data |
+| **PyPI** | [pcr-ai](https://pypi.org/project/pcr-ai/) | Python package (secondary) |
+| **GitLab** | [gitlab.com/gitdeeper/pcr-ai](https://gitlab.com/gitdeeper/pcr-ai) | Primary repository |
+| **GitHub** | [github.com/gitdeeper/pcr-ai](https://github.com/gitdeeper/pcr-ai) | Mirror |
+| **Internet Archive** | [Archive](https://archive.org/details/osf-registrations-XXXXX-v1) | Permanent preservation |
 
 ---
 
-Validation Scenarios
+## OSF Preregistration
 
-Scenario Description Key Metric Result
-Scenario 1 Conceptual Architecture consistency Score ✅ PASS
-Scenario 2 Authority Structure separation Score ✅ PASS
-Scenario 3 Lifecycle path integrity Score ✅ PASS
+[![OSF Preregistration](https://img.shields.io/badge/OSF-Preregistered-blue?logo=osf&logoColor=white)](https://osf.io/XXXXX)
+[![Registration DOI](https://img.shields.io/badge/Reg.%20DOI-10.17605/OSF.IO/XXXXX-blue)](https://doi.org/10.17605/OSF.IO/XXXXX)
 
----
-
-Reproducibility Infrastructure
-
-Platform Link Content
-Zenodo 10.5281/zenodo.23940837 Research II manuscript + DOI
-OSF osf.io/XXXXX Preregistration + data
-PyPI pcr-ai Python package
-GitLab gitlab.com/gitdeeper/pcr-ai Primary repository
-GitHub github.com/gitdeeper/pcr-ai Mirror
-Internet Archive Archive Permanent preservation
+**Registration DOI:** `10.17605/OSF.IO/XXXXX`
+**Project:** [osf.io/XXXXX](https://osf.io/XXXXX)
+**Archive:** [Internet Archive](https://archive.org/details/osf-registrations-XXXXX-v1)
+**License:** CC-By Attribution 4.0 International
 
 ---
 
-OSF Preregistration
+## Version History
 
-https://img.shields.io/badge/OSF-Preregistered-blue?logo=osf&logoColor=white
-https://img.shields.io/badge/Reg.%20DOI-10.17605/OSF.IO/XXXXX-blue
+| Version | Release | Focus | Status |
+|---|---|---|---|
+| **v0.1** | 2026-11 | Initial Program Manuscript — Architecture Specification Stage | Research |
+| **v0.2** | 2026-11 | Conceptual Architecture adopted | Adopted |
+| **v0.1** | 2026-11 | Authority Structure, Lifecycle, Questions specified | Pending |
 
-Registration DOI: 10.17605/OSF.IO/XXXXX
-Project: osf.io/XXXXX
-Archive: Internet Archive
-License: CC-By Attribution 4.0 International
-
----
-
-Version History
-
-Version Release Focus Scientific Domain Tests Status
-v1.0.0 2026-11-04 08:01:25 Development general 42 Research
-v0.9.0 2026-01-01 Prototype general 30 Stable
-
-v1.0.0 Highlights — Development
-
-Initial release of Research II protocol repository.
-
-Development Roadmap
-
-Milestone Target Platform Status
-v1.0.0 release + PyPI 2026-11-04 08:01:25 All GPUs ✅ Complete
-Milestone 2 2026-09-01 Platform 🔄 In progress
-Milestone 3 2026-12-01 Platform 📐 Design phase
-Milestone 4 2027-03-01 Platform 📋 Planned
+> **Status note:** No empirical or analytical examination of specific systems has been undertaken. The five functional units, five authorities, six lifecycle stages, and five alternative paths are **analytical proposals, not empirically validated categories**.
 
 ---
 
-Citation
+## Citation
 
-If you use PCR_AI or the Research II protocol in your research, please cite the manuscript, the Zenodo software archive, and the OSF preregistration.
-
-Primary Manuscript (Research II)
+### Primary Manuscript (Research II)
 
 ```bibtex
 @techreport{baladi2026research2,
@@ -424,25 +433,16 @@ https://img.shields.io/badge/Paper%20ID-PAPER--2026--001-blue
 }
 ```
 
-Journal Information:
-
-· ISSN: XXXX-XXXX
-· Volume: 1, Issue 1, November 2026
-· Paper ID: PAPER-2026-001
-· Type: Peer-reviewed, Open Access
-· Publisher: Academic Press
-
 ---
 
 Author
 
 Samir Baladi
-Interdisciplinary AI Researcher — Ronin Institute / Rite of Renaissance
+Independent Interdisciplinary Researcher — Ronin Institute / Rite of Renaissance
 
-Research Area: Science and Technology Studies, Media and Platform Studies, Human-AI Interaction
-Research Domain: Structural Analysis of Representational Authority in AI-Mediated Systems
-Research Type: Prospective Structural Research Protocol — Conceptual, Authority, and Lifecycle Architecture
-
+· Research Area: Science and Technology Studies, Media and Platform Studies, Human-AI Interaction
+· Research Domain: Structural Analysis of Representational Authority in AI-Mediated Systems
+· Research Type: Prospective Structural Research Protocol — Conceptual, Authority, and Lifecycle Architecture
 · 📧 gitdeeper@gmail.com
 · 🔗 ORCID: 0009-0003-8903-0029
 · 🐙 GitHub
@@ -470,6 +470,6 @@ copies or substantial portions of the Software.
 
 ---
 
-PCR_AI v1.0.0 — Research II Reference Implementation
+Research II — Initial Program Manuscript v0.1
 © 2026 Samir Baladi — Ronin Institute / Rite of Renaissance — MIT License
 Zenodo: 10.5281/zenodo.23940837 | OSF: 10.17605/OSF.IO/XXXXX | PyPI: pcr-ai
