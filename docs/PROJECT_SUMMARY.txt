@@ -1,0 +1,31 @@
+# Scion - Project Summary
+
+**Domain:** computer_science
+**Subdiscipline:** N/A
+**Truth Score:** 85.0
+**Stage:** EXPERIMENTAL
+
+## Entities:
+- Workload Transformation, Research Axis, 0.85
+- Repository Architecture, Research Axis, 0.82
+- Data Architecture, Research Axis, 0.8
+- Execution Infrastructure, Research Axis, 0.78
+- Governance & Security, Research Axis, 0.75
+- Scion Changeset Model, Core System, 0.88
+- Scion Derived Data, Core System, 0.85
+- Scion Three-Tier Distribution, Core System, 0.82
+- Git (Baseline), Comparator System, 0.72
+- Piper (Google), Comparator System, 0.78
+- Sapling/Mononoke (Meta), Comparator System, 0.76
+- Spanner (Google), Infrastructure Component, 0.8
+- Anthropic Operational Figures, Self-Reported Data, 0.65
+- Layer A (Architectural Analysis), Research Layer, 0.9
+- Layer B (Structural Analysis), Research Layer, 0.88
+- Layer C (Empirical Evaluation), Proposed Protocol, 0.55
+- Agentic Workload, Target Variable, 0.85
+
+## Status:
+- Stage: EXPERIMENTAL
+- Quality Gate: PASSED
+
+Generated: 2026-11-04 02:01:57

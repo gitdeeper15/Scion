@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rethinking-source-control"
+version = "1.0.0"
+description = "Rethinking Source Control for Agentic Software Engineering: Architectural Transformation, Data Models, and Scalability Constraints in AI-Driven Development"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Samir Baladi", email = "gitdeeper@gmail.com"},
+]
+maintainers = [
+    {name = "Samir Baladi", email = "gitdeeper@gmail.com"},
+]
+keywords = [
+    "source control",
+    "version control",
+    "agentic software engineering",
+    "distributed systems",
+    "changesets",
+    "derived data",
+    "repository architecture",
+    "scalability",
+    "scion",
+    "git",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "isort>=5.12.0",
+    "build>=1.0.0",
+    "twine>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gitdeeper15/Scion"
+Manuscript = "https://doi.org/10.5281/zenodo.23934465"
+Zenodo = "https://doi.org/10.5281/zenodo.23934465"
+Figshare = "https://doi.org/10.6084/m9.figshare.34908594"
+PyPI = "https://pypi.org/project/rethinking-source-control/"
+ORCID = "https://orcid.org/0009-0003-8903-0029"
+Website = "https://scion-claude.netlify.app"
+
+[tool.setuptools]
+packages = []
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

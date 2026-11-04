@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Data & Experiments
+DATA/raw/*
+DATA/processed/*
+EXPERIMENTS/logs/*
+EXPERIMENTS/results/*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Backups
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Pytest
+.pytest_cache/
+
+# Test outputs
+EXPERIMENTS/results/*.json

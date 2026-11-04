@@ -1,0 +1,36 @@
+{
+  "ste_enabled": true,
+  "paper_title": "Scion",
+  "paper_keywords": [
+    "workload",
+    "repository",
+    "error",
+    "transformation",
+    "version",
+    "institute",
+    "cdot",
+    "ronin",
+    "security",
+    "baladi",
+    "introduction",
+    "abstract",
+    "methodology",
+    "architecture",
+    "agentic",
+    "beta",
+    "label",
+    "renaissance",
+    "november",
+    "data"
+  ],
+  "paper_sections": [
+    "Introduction",
+    "Abstract",
+    "Methodology",
+    "Results",
+    "Discussion",
+    "Conclusion"
+  ],
+  "domain": "computer_science",
+  "consistency_target": 85
+}

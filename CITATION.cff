@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "Agent-Judge-Framework: A Reliability-Oriented Framework for Automated Evaluation of Tool-Using Autonomous Agents"
+message: "If you use this research, data, or code, please cite as below."
+type: software
+version: "1.0.0"
+date-released: "2026-11-03"
+license: MIT
+abstract: |
+  A reliability-oriented framework designed to evaluate tool-using
+  autonomous agents while simultaneously assessing the reliability of
+  the evaluation process itself.
+
+  The proposed architecture consists of four interconnected layers:
+  Knowledge and Evidence, Agent Execution, Independent Evaluation, and
+  Judge Reliability Assessment. The experimental design compares three
+  agent configurations, two independent LLM judges, and two evaluation
+  strategies: zero-shot evaluation and structured evidence-based
+  evaluation.
+
+  The framework will produce an executable Python implementation, a
+  reproducible benchmark, an evaluation dataset, and an empirical
+  research report. No experimental results are claimed in this
+  manuscript. All hypotheses remain subject to empirical investigation.
+keywords:
+  - autonomous agents
+  - LLM-as-a-judge
+  - evaluation reliability
+  - tool execution
+  - evidence verification
+  - judge calibration
+  - benchmark design
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    email: "gitdeeper@gmail.com"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+repository-code: "https://github.com/gitdeeper15/ajf"
+url: "https://github.com/gitdeeper15/ajf"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23907823"
+  - type: url
+    value: "https://doi.org/10.5281/zenodo.23907823"
+  - type: url
+    value: "https://github.com/gitdeeper15/ajf"
+  - type: url
+    value: "https://pypi.org/project/agent-judge-framework/"

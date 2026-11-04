@@ -1,0 +1,263 @@
+{
+  "total_claims": 2,
+  "aligned_claims": 0,
+  "aligned_refs": [],
+  "unaligned_refs": [
+    {
+      "id": 1,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Jiun Kim, Hyuntae Hwang (2026). Harness Engineering: Deterministic Architectural Governance for AI-D..."
+    },
+    {
+      "id": 2,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Unknown (2025). Agentic Commerce: Architectural Frameworks and Governance Models for AI-Driven Retai..."
+    },
+    {
+      "id": 3,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Sumit Ranjan, Divya Chembachere, Lanwin Lobo (2025). Architectural Patterns for LLM Adoption in Agen..."
+    },
+    {
+      "id": 4,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Unknown (2026). Software-Driven Innovation Systems: Architectural Models for Technology-Centric Orga..."
+    },
+    {
+      "id": 5,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Ciprian Paduraru, Miruna Zavelca, Alin Stefanescu (2025). Agentic AI for Behavior-Driven Development..."
+    },
+    {
+      "id": 6,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Dhivya Nagasubramanian (2026). Architectural Design Patterns for Agentic Systems. CrossRef. https://..."
+    },
+    {
+      "id": 7,
+      "domain_score": 0.02,
+      "is_irrelevant": false,
+      "text": "Murali Malempati (2025). A Multidisciplinary Framework for AI and Data-Driven Transformation in Taxa..."
+    },
+    {
+      "id": 8,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Takumi Suzuki, Mio Tanaka (2026). Scalability Constraints in AI-Driven Construction Management: Oppo..."
+    },
+    {
+      "id": 9,
+      "domain_score": 0.02,
+      "is_irrelevant": false,
+      "text": "Guruprasath Sankaran (2026). Small Language Models and Spec-Driven Development for High-Accuracy Age..."
+    },
+    {
+      "id": 10,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Miguel Hern\u00e1ndez Bejarano, Luis\u00a0E. Baquero-Rey (2025). AI-Driven Software Development: A Paradigm Sh..."
+    },
+    {
+      "id": 11,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Jens Kawelke, Thomas Niebisch (2026). Connecting Requirements Engineering to Agentic Development. Cr..."
+    },
+    {
+      "id": 12,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Ibrahim El Samman, Mohammed Safy (2026). AI-Driven Automation of Software Testing to Enhance Softwar..."
+    },
+    {
+      "id": 13,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Sachin Suryawanshi (2026). SPEC-DRIVEN DEVELOPMENT FOR ENTERPRISE AGENTIC SOFTWARE ENGINEERING: A GO..."
+    },
+    {
+      "id": 14,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Bernardo Nicoletti (2026). Agentic AI-Driven Transformation: From Traditional Practices to Intellige..."
+    },
+    {
+      "id": 15,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Unknown (2025). Designing Autonomous Software Platforms: Architectural Patterns for End-to-End AI-Dr..."
+    },
+    {
+      "id": 16,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Lu\u00eds Gomes, Lu\u00eds Batista, Ant\u00f3nio Deus (2026). A Governance and Architectural Framework for Agentic ..."
+    },
+    {
+      "id": 17,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Sumit Ranjan, Divya Chembachere, Lanwin Lobo (2025). Mastering Prompt Engineering in Enterprise Agen..."
+    },
+    {
+      "id": 18,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Dhivya Nagasubramanian (2026). Agentic Workflows and AI Agents. CrossRef. https://doi.org/10.4324/97..."
+    },
+    {
+      "id": 19,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Unknown (2013). A Model-driven Process for Data Transformation of Heterogeneous Data. CrossRef. http..."
+    },
+    {
+      "id": 20,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Unknown (2024). Designing Software Platforms for Global Digital Services: Architectural Models for C..."
+    },
+    {
+      "id": 21,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Pekka Aho, Janne Merilinna, Eila Ovaska (2009). Model-Driven Open Source Software Development - The ..."
+    },
+    {
+      "id": 22,
+      "domain_score": 0.02,
+      "is_irrelevant": false,
+      "text": "Someshwar Mashetty, Murali Malempati, Srinivasarao Paleti (2025). A Multidisciplinary Framework for ..."
+    },
+    {
+      "id": 23,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Gabriel Sze (2026). Designing for Meaningful Control in Agentic AI Delegation: An Architectural Gove..."
+    },
+    {
+      "id": 24,
+      "domain_score": 0.02,
+      "is_irrelevant": false,
+      "text": "Srinivasarao Paleti, Murali Malempati, Someshwar Mashetty (2025). A Multidisciplinary Framework for ..."
+    },
+    {
+      "id": 25,
+      "domain_score": 0.02,
+      "is_irrelevant": false,
+      "text": "Murali Malempati, Srinivasarao Paleti, Someshwar Mashetty (2025). A Multidisciplinary Framework for ..."
+    },
+    {
+      "id": 26,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Padma Iyenghar, Friedrich Otte, Elke Pulvermueller (2022). AI-guided Model-Driven Embedded Software ..."
+    },
+    {
+      "id": 27,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Rick Kirby (2026). The Execution Control Layer: A Formal Architectural Boundary for Agentic AI Syste..."
+    },
+    {
+      "id": 28,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Kathiravan Manoharan (2025). Guardians of the Grid: Rethinking AI and Data Governance in the Agentic..."
+    },
+    {
+      "id": 29,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Vadym Chernets (2026). Architectural Trust: Why Consumer Trust in Agentic Commerce Migrates from AI ..."
+    },
+    {
+      "id": 30,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Narasimharao Davuluri (2026). Streaming Data Platforms and Event-Driven Design. CrossRef. https://do..."
+    },
+    {
+      "id": 31,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Rahul Mathur (2026). Agentic AI. CrossRef. https://doi.org/10.1201/9781003671015-11..."
+    },
+    {
+      "id": 32,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Krishna C Chaganti (2025). Advancing AI-Driven Threat Detection in IoT Ecosystems: Addressing Scalab..."
+    },
+    {
+      "id": 33,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "TEENU JAIN, Shivek Mallick, Lakshay Rathee (2025). An Agentic AI Framework for Real-Time Fashion Mar..."
+    },
+    {
+      "id": 34,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "C\u00e9sar Cuevas Cuesta, Patricia L\u00f3pez Mart\u00ednez, Jos\u00e9 M. Drake (2016). Model-driven Approach for Verify..."
+    },
+    {
+      "id": 35,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Pawan Kumar Goel, Km Komal, Nitish Vashishth (2024). AI-Driven Software Development Lifecycle Optimi..."
+    },
+    {
+      "id": 36,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Nabil Badr (2026). Agentic AI in Healthcare: Architectural Model and Call to Action. CrossRef. https..."
+    },
+    {
+      "id": 37,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Jordi Cabot, Benoit Combemale, Jean-Michel Bruel (2026). Aligning Model-Driven Engineering and Spec-..."
+    },
+    {
+      "id": 38,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "Jordi Cabot, Benoit Combemale, Jean-Michel Bruel (2026). Aligning Model-Driven Engineering and Spec-..."
+    },
+    {
+      "id": 39,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "M. Sunil Kumar (2025). Architectural Framework for AI-Driven Integrated Testing Pipelines in Modern ..."
+    },
+    {
+      "id": 40,
+      "domain_score": 0.0,
+      "is_irrelevant": false,
+      "text": "George Zacharia (2026). Architectural Convergence of AI-Driven Microservices within Microsoft .NET a..."
+    }
+  ],
+  "details": [
+    {
+      "claim": "Small Language Models and Spec-Driven Development for High-Accuracy Agentic AI Systems.",
+      "section": "Conclusion",
+      "citations": [],
+      "aligned_refs": [],
+      "aligned": false
+    },
+    {
+      "claim": "AI-Driven Automation of Software Testing to Enhance Software Quality and Enable Agentic AI.",
+      "section": "Conclusion",
+      "citations": [],
+      "aligned_refs": [],
+      "aligned": false
+    }
+  ]
+}

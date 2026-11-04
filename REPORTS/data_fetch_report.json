@@ -1,0 +1,29 @@
+{
+  "project": "Scion",
+  "database": "/storage/emulated/0/Download/GITDEEPER_LAB_ZERO_V6/DATA/lab_data.db",
+  "version": "V3-universal-dynamic",
+  "total_entities": 17,
+  "updated": 0,
+  "failed": 17,
+  "updated_entities": [],
+  "failed_entities": [
+    "Workload Transformation",
+    "Repository Architecture",
+    "Data Architecture",
+    "Execution Infrastructure",
+    "Governance & Security",
+    "Scion Changeset Model",
+    "Scion Derived Data",
+    "Scion Three-Tier Distribution",
+    "Git (Baseline)",
+    "Piper (Google)",
+    "Sapling/Mononoke (Meta)",
+    "Spanner (Google)",
+    "Anthropic Operational Figures",
+    "Layer A (Architectural Analysis)",
+    "Layer B (Structural Analysis)",
+    "Layer C (Empirical Evaluation)",
+    "Agentic Workload"
+  ],
+  "api_indicators_fetched": 27
+}
