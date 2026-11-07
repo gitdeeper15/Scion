@@ -9,7 +9,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23934465-1B4F72?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23934465)
 [![OSF](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FT2WNC-blue)](https://doi.org/10.17605/OSF.IO/T2WNC)
 [![Figshare](https://img.shields.io/badge/Figshare-10.6084%2Fm9.figshare.34908594-FC4B00?logo=figshare&logoColor=white)](https://doi.org/10.6084/m9.figshare.34908594)
-[![Website](https://img.shields.io/badge/website-scion-claude.netlify.app-00C7B7?logo=netlify&logoColor=white)](https://claude-scion.netlify.app)
+[![Website](https://img.shields.io/badge/website-claude--scion.netlify.app-00C7B7?logo=netlify&logoColor=white)](https://claude-scion.netlify.app)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--8903--0029-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-8903-0029)
 [![Domain](https://img.shields.io/badge/domain-Software%20Engineering-2e8b57)]()
 [![Python](https://img.shields.io/badge/analysis-Python-3776ab?logo=python&logoColor=white)](https://python.org)
